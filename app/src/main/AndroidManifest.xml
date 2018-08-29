@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.shova.medical">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".application.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DoctorPersonalProfileActivity"
+            android:label="@string/title_activity_doctor_profile"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.PublicDoctorProfileActivity"
+            android:label="@string/title_activity_viewers_profile_doctor"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.PublicUserProfileActivity"
+            android:label="@string/title_activity_view_profile_user"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.RegisterDoctorActivity"
+            android:label="@string/title_activity_register_doctor"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.RegisterUserActivity"
+            android:label="@string/title_activity_register_user"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.ImportantMedicineActivity"
+            android:label="@string/title_activity_important_medicine"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.MedicineHistoryListActivity"
+            android:label="@string/title_activity_medicine_history_list"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.FavoriteDoctorActivity"
+            android:label="@string/title_activity_favorite_doctor"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.UserPersonalProfileActivity"
+            android:label="@string/title_activity_user_personal_profile"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.MyPatientActivity"
+            android:label="@string/title_activity_my_patient"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.DoctorPrescriptionActivity"
+            android:label="@string/title_activity_prescription"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.PatientPrescriptionActivity"
+            android:label="@string/title_activity_patient_prescription"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.SetAlarmActivity"
+            android:label="@string/title_activity_set_alarm"
+            android:theme="@style/MyMaterialTheme"></activity>
+
+        <receiver android:name=".receiver.AlarmReceiver" />
+
+        <activity android:name=".activity.DetailActivity"></activity>
+    </application>
+
+</manifest>

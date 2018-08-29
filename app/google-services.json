@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "944516264078",
+    "firebase_url": "https://madical-ffbd9.firebaseio.com",
+    "project_id": "madical-ffbd9",
+    "storage_bucket": "madical-ffbd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944516264078:android:47e6228e1a039a13",
+        "android_client_info": {
+          "package_name": "com.app.shova.medical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944516264078-fva4d96mqh4c7o4opfdj5flqqip968p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.shova.medical",
+            "certificate_hash": "8323170ee9bddaccd0af4d919c74d11b38b2ee69"
+          }
+        },
+        {
+          "client_id": "944516264078-fg6h69mop6e2pi2jtdft874isapi66p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3LHCh6KzIKvPRx2vxGNc54H9g923dcxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944516264078-fg6h69mop6e2pi2jtdft874isapi66p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

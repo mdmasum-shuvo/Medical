@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_one">select one</string>
+
+
+    <string name="medicine_name">Name</string>
+    <string name="genric">/genric/</string>
+    <string name="type">Type</string>
+    <string name="synonym">Good, Excellent, Well, Proper, Good, Excellent, Well, Proper</string>
+    <string name="antonym">Bad, Evil, Badness, Good, Excellent, Well, Proper</string>
+    <string name="example">He is a very good person</string>
+    <string name="word_day">Word of the Day</string>
+
+    <!--- Addmob   !-->
+    <string name="app_ad_id">ca-app-pub-6382099871444261~9778932425</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6382099871444261/7164732597</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6382099871444261/4249427662</string>
+    <string name="history_list">History</string>
+    <string name="add_word_list">Add new word</string>
+    <string name="banner">BANNER</string>
+
+
+    <string name="doctor_name">DR. Abdur Rahim</string>
+    <string name="doctor_specialist">Heart Specialist</string>
+</resources>

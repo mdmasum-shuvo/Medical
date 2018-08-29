@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/doctor_profile_img_list"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:forceHasOverlappingRendering="true"
+                app:civ_border_color="#FF000000"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight=".50">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/color_text"
+                    android:id="@+id/textView_doctor_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Partho Protim"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/textView_doctor_desig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="heart Specialist" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/doctor_phone_call"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight=".10"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_local_phone_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/favorite_icon_doctor"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight=".10"
+                android:padding="5dp"
+                app:srcCompat="@drawable/favorite_icon_doctor"
+                tools:ignore="VectorDrawableCompat" />
+            <ImageView
+                android:id="@+id/unfavorite_icon_doctor"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight=".10"
+                android:padding="5dp"
+                app:srcCompat="@drawable/unfav_icon_doctor"
+                tools:ignore="VectorDrawableCompat" />
+
+        </LinearLayout>
+
+</RelativeLayout>

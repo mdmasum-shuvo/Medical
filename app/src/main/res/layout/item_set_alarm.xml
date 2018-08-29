@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/time_layout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_alarm_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="timeButton"
+                android:text="alarm 1"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:background="@color/black"
+                tools:ignore="OnClick" />
+            <TextView
+                android:id="@+id/timeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="timeButton"
+                android:paddingLeft="15dp"
+                android:text="6:20"
+                android:textColor="#FFFF"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/amText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="AM"
+                android:textColor="#FFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/set_alarm_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/button_background"
+                android:text="set Alarm" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

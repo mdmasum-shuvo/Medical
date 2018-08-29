@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight=".50">
+            <TextView
+                android:id="@+id/textView_paitent_name"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/color_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Partho Protim"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView_patient_syndrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="syndrom" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_prescrip"
+            android:background="@drawable/button_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFF"
+            android:padding="12dp"
+            android:text="prescrip"/>
+    </LinearLayout>
+
+</RelativeLayout>
